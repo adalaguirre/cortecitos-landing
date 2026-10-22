@@ -1430,5 +1430,13 @@
     })();
   </script>
 
+  <!-- ============================================
+       VERCEL WEB ANALYTICS (visitas y páginas vistas, sin cookies)
+       Solo registra datos cuando Analytics está activado en el
+       panel de Vercel; si no, no hace nada.
+       ============================================ -->
+  <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+  <script defer src="/_vercel/insights/script.js"></script>
+
 </body>
 </html>
